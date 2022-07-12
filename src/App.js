@@ -6,21 +6,27 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">
-          <h1> Welcome to Coding</h1>
-          <Weather />
-          <p>React Week 5</p>
+        <header className="container">
+          <Weather defaultCity="Darmstadt" />
         </header>
 
         <footer>
-          This page is code by Pallavi G R and is open sourdec on GITHUB{" "}
+          This page is code by Pallavi G R and is Open-sourded on GITHUB{" "}
           <a
             href="https://github.com/Pallavi-GR/react-week5.git"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
+          >
+            {"  "}@ PALLAVI GR
+          </a>{" "}
+          and
+          <a
+            href="https://github.com/Pallavi-GR/react-week5.git"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             {" "}
-            @ PALLAVI GR
+            hosted on Netlify.
           </a>
         </footer>
       </div>
