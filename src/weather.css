@@ -28,7 +28,7 @@
 
 .weather img {
   height: 64px;
-  margin-right: 20px;
+  margin-right: 30px;
   width: 64px;
 }
 
@@ -38,6 +38,7 @@
   font-size: 64px;
   font-weight: 400;
   line-height: 64px;
+  margin-left: 10px;
 }
 
 .weather .unit {
