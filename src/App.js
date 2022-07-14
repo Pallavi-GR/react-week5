@@ -21,7 +21,7 @@ export default function App() {
           </a>{" "}
           and
           <a
-            href="https://github.com/Pallavi-GR/react-week5.git"
+            href="https://roaring-cactus-8c0848.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
